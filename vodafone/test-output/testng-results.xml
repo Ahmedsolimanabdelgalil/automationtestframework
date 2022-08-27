@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-27T04:54:17 EET" name="Default suite" finished-at="2022-08-27T04:54:25 EET" duration-ms="8183">
+    <groups>
+    </groups>
+    <test started-at="2022-08-27T04:54:17 EET" name="Default test" finished-at="2022-08-27T04:54:25 EET" duration-ms="8183">
+      <class name="tests.Testvodafone">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:07 EET" name="startdriver" finished-at="2022-08-27T04:54:17 EET" duration-ms="10324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method signature="runvodafonetest1()[pri:1, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:17 EET" name="runvodafonetest1" finished-at="2022-08-27T04:54:19 EET" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runvodafonetest1 -->
+        <test-method signature="runvodafonetest2()[pri:2, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:19 EET" name="runvodafonetest2" finished-at="2022-08-27T04:54:20 EET" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runvodafonetest2 -->
+        <test-method signature="runchecktoproceed()[pri:3, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:20 EET" name="runchecktoproceed" finished-at="2022-08-27T04:54:22 EET" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runchecktoproceed -->
+        <test-method signature="runselectoptions1()[pri:4, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:22 EET" name="runselectoptions1" finished-at="2022-08-27T04:54:23 EET" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselectoptions1 -->
+        <test-method signature="runselectoptions2()[pri:5, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:23 EET" name="runselectoptions2" finished-at="2022-08-27T04:54:23 EET" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselectoptions2 -->
+        <test-method signature="rundeliverbutton()[pri:6, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:23 EET" name="rundeliverbutton" finished-at="2022-08-27T04:54:23 EET" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rundeliverbutton -->
+        <test-method signature="runfillingaddress()[pri:7, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:23 EET" name="runfillingaddress" finished-at="2022-08-27T04:54:24 EET" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runfillingaddress -->
+        <test-method signature="runcontinuebtn()[pri:8, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:24 EET" name="runcontinuebtn" finished-at="2022-08-27T04:54:24 EET" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runcontinuebtn -->
+        <test-method signature="runpersonalinfo()[pri:9, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:24 EET" name="runpersonalinfo" finished-at="2022-08-27T04:54:25 EET" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runpersonalinfo -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:tests.Testvodafone@6221a451]" started-at="2022-08-27T04:54:25 EET" name="stopdriver" finished-at="2022-08-27T04:54:26 EET" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.Testvodafone -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

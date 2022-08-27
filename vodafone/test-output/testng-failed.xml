@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.Testvodafone">
+        <methods>
+          <include name="startdriver"/>
+          <include name="runcontinuebtn"/>
+          <include name="rundeliverbutton"/>
+          <include name="runselectoptions2"/>
+          <include name="runvodafonetest1"/>
+          <include name="runvodafonetest2"/>
+          <include name="runselectoptions1"/>
+          <include name="runpersonalinfo"/>
+          <include name="runchecktoproceed"/>
+          <include name="runfillingaddress"/>
+          <include name="stopdriver"/>
+        </methods>
+      </class> <!-- tests.Testvodafone -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
